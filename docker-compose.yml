@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  etl-job:
+    build: .
+    env_file: .env
+    volumes:
+      # Mapeia a pasta 'data' do seu PC para '/app/data' no Docker
+      - ./data:/app/data
+      # Mapeia os scripts para você poder editar sem reconstruir a imagem
+      - ./scripts:/app/scripts
