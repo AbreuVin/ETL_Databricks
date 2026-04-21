@@ -2,3 +2,13 @@ pyspark==3.5.0
 delta-spark==3.0.0
 requests
 pandas
+numpy
+matplotlib
+seaborn
+statsmodels
+scipy
+prophet
+python-dotenv
+databricks-sql-connector
+sentence-transformers
+google-generativeai

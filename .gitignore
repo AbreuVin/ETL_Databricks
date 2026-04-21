@@ -1,3 +1,21 @@
+# Credenciais e configurações locais
 .env
 *.env
 .env.*
+
+# Claude Code
+.claude/
+
+# Power BI cache
+*.abf
+"Databrick Gov.SemanticModel/.pbi/cache.abf"
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
